@@ -326,6 +326,48 @@ body {
   border-left: 6px solid #ff6a00;
 }
 
+.contact-section {
+  background-color: #fff6f0;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2em;
+  color: #ff6a00;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  color: #444;
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.info-block h3 {
+  color: #ff6a00;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.info-block p a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.info-block p a:hover {
+  color: #ff6a00;
+}
+
   /* Footer */
  .lumo-footer {
   background-color: black;
