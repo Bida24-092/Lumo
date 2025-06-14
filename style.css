@@ -329,6 +329,34 @@ body {
 
 }
 
+/* Social Media Icons */
+.social-icons {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        margin-top: 20px;
+}
+
+.social-icons .icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        color: #ff6600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons .icon:hover {
+        background-color: #ff6600;
+        color: #ffffff;
+        transform: translateY(-4px);
+}
+
   /* Footer */
  .lumo-footer {
   background-color: black;
